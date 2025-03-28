@@ -133,18 +133,7 @@ const skills = {
       icon: <SiPandas />,
       name: "Pandas",
     },
-    {
-      icon: <SiAzure />,
-      name: "Azure AI Services",
-    },
-    {
-      icon: <SiAws />,
-      name: "AWS",
-    },
-    {
-      icon: <SiGooglecloud />,
-      name: "Google Cloud AI",
-    },
+    // siAws in the future in case 
   ],
 };
 
