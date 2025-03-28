@@ -17,7 +17,7 @@ const Photo = () => {
       >
         <Image
           src="/assets/photo.png"
-          alt="Luiso's profile photo"
+          alt="Sherki's profile photo"
           priority
           quality={100}
           sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 400px"
