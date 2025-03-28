@@ -70,9 +70,9 @@ const Home = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.2 }}
-                href="/assets/Luis-Solar-CV.pdf"
+                href="/assets/resume.pdf"
                 download
-                aria-label="Download Luiso's CV"
+                aria-label="Download Sherki's CV"
               >
                 <Button
                   variant="outline"
