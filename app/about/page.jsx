@@ -29,7 +29,7 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Sherki Meziane",
+      fieldValue: "Cherki Meziane",
     },
     {
       fieldName: "Experience",
@@ -37,7 +37,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+1) 786 825 4670",
+      fieldValue: "(+44) 0792 5047 8373",
     },
     {
       fieldName: "Email",
@@ -45,11 +45,11 @@ const about = {
     },
     {
       fieldName: "Location",
-      fieldValue: "Washington, DC, USA",
+      fieldValue: "London, UK",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Italian, Arab",
     },
   ],
 };

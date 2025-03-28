@@ -26,7 +26,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Location",
-    description: "Bergamo, IT/ London, UK",
+    description: "Bergamo, IT/ London, Uk ",
     action: () =>
       window.open("https://www.google.com/maps?q=Washington+DC", "_blank"),
   },

@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { HiOutlineSparkles } from "react-icons/hi";
 
 const socials = [
-  { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/solarluiso/" },
+  { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/cherki-meziane-84915b196/" }, 
   { icon: <FaGithub />, path: "https://github.com/solarluiso" },
-  { icon: <FaDiscord />, path: "https://discordapp.com/users/solarluiso" },
+ // { icon: <FaDiscord />, path: "https://discordapp.com/users/solarluiso" },
 ];
 
 const Social = () => (
