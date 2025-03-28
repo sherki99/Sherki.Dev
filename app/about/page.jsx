@@ -146,7 +146,7 @@ const experience = {
   items: [
     {
       position: "Machine Learning Engineer",
-      duration: "May 2023 - Now",
+      duration: "April 2024 - Now",
       description: "Zirak, Torino, Italy - Worked on CNN models for satellite image processing and computer vision applications.",
     },
     {
