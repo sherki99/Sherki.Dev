@@ -13,7 +13,7 @@ const Photo = () => {
           opacity: 1,
           transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
         }}
-        className="relative z-10 w-[250px] h-[250px] xl:w-[380px] xl:h-[380px]"
+        className="relative z-10 w-[250px] h-[250px] xl:w-[380px] xl:h-[380px] rounded-full overflow-hidden"
       >
         <Image
           src="/assets/photo.png"
@@ -21,7 +21,7 @@ const Photo = () => {
           priority
           quality={100}
           sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 400px"
-          className="object-contain"
+          className="object-cover"
           fill
         />
       </motion.div>
