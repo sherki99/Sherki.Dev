@@ -15,10 +15,7 @@ import {
   SiScikitlearn,      
   SiKeras,            
   SiNumpy,            
-  SiPandas,           
-  SiAzure,            
-  SiAws,              
-  SiGooglecloud,      
+  SiPandas,               
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
