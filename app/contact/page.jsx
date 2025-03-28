@@ -14,8 +14,8 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+1) 786 825 4670",
-    action: () => (window.location.href = "tel:+17868254670"),
+    description: "(+44) 792 547 8373",
+    action: () => (window.location.href = "tel:+4407925478373"),
   },
   {
     icon: <FaEnvelope />,
@@ -28,7 +28,7 @@ const info = [
     title: "Location",
     description: "Bergamo, IT/ London, Uk ",
     action: () =>
-      window.open("https://www.google.com/maps?q=Washington+DC", "_blank"),
+      window.open("https://www.google.com/maps?q=London", "_blank")
   },
 ];
 

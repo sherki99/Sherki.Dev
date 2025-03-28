@@ -164,11 +164,6 @@ const experience = {
       duration: "Oct 2021 - Jan 2022",
       description: "GoFinance - Developed a real-time financial analytics platform using C# and MySQL.",
     },
-    {
-      position: "Machine Learning Engineer",
-      duration: "1 Year",
-      description: "Zirak, Torino, Italy - Worked on CNN models for satellite image processing and computer vision applications.",
-    }
   ],
 };
 
@@ -177,22 +172,17 @@ const education = {
   icon: "/assets/about/cap.svg",
   title: "My education",
   description:
-    "Solid academic foundation in computer science, enhanced by specialized certifications.",
+    "Strong foundation in Artificial Intelligence and Computer Science, complemented by industry-recognized certifications.",
   items: [
     {
-      institution: "Coursera",
-      degree: "Meta Front-End Developer Certificate",
-      duration: "2023",
+      institution: "Anglia Ruskin University, Cambridge, UK",
+      degree: "BSc (Hons) Artificial Intelligence",
+      duration: "2021 - 2024",
     },
     {
-      institution: "Miami Dade College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Istuto Luca Pacioli, CR, IR",
-      degree: "Custrozione Ambiete Terrotorio",
-      duration: "2015",
+      institution: "Luca Pacioli",
+      degree: "High School Diploma (Construction & Environment), Crema, IT",
+      duration: "2014 - 2019",
     },
   ],
 };
