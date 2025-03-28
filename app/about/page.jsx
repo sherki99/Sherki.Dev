@@ -25,7 +25,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "Driven by curiosity and perseverance, I am passionate about developing intuitive software that brings value to the world. I believe in the power of technology to bridge gaps, spark positive change, and empower users to achieve their goals.",
+    "I am a machine learning engineer with expertise in large language models (LLMs), graph-based technologies, and model prototyping. I specialize in developing advanced machine learning solutions that solve complex problems and drive innovation. With a strong foundation in both theory and practical implementation, I leverage cutting-edge techniques to build scalable and efficient AI systems.",
   info: [
     {
       fieldName: "Name",
@@ -54,11 +54,12 @@ const about = {
   ],
 };
 
+
 // skills data
 const skills = {
   title: "My skills",
   description:
-    "Adept in the JavaScript ecosystem, I work with modern frameworks and tools to build fast and visually engaging web applications that deliver seamless user experiences.",
+    "Experienced in AI, machine learning, and full-stack development, I build scalable applications using modern frameworks, cloud platforms, and deep learning models, with a focus on data processing, neural networks, and computer vision.",
   skillList: [
     {
       icon: <FaReact />,
@@ -92,6 +93,50 @@ const skills = {
       icon: <SiDocker />,
       name: "Docker",
     },
+    {
+      icon: <SiPython />,
+      name: "Python",
+    },
+    {
+      icon: <SiTensorflow />,
+      name: "TensorFlow",
+    },
+    {
+      icon: <SiPytorch />,
+      name: "PyTorch",
+    },
+    {
+      icon: <SiOpencv />,
+      name: "OpenCV",
+    },
+    {
+      icon: <SiScikitlearn />,
+      name: "Scikit-Learn",
+    },
+    {
+      icon: <SiKeras />,
+      name: "Keras",
+    },
+    {
+      icon: <SiNumpy />,
+      name: "NumPy",
+    },
+    {
+      icon: <SiPandas />,
+      name: "Pandas",
+    },
+    {
+      icon: <SiAzure />,
+      name: "Azure AI Services",
+    },
+    {
+      icon: <SiAws />,
+      name: "AWS",
+    },
+    {
+      icon: <SiGooglecloud />,
+      name: "Google Cloud AI",
+    },
   ],
 };
 
@@ -100,28 +145,33 @@ const experience = {
   icon: "/assets/about/badge.svg",
   title: "My experience",
   description:
-    "Skilled in both frontend and backend technologies, collaborating effectively with cross-functional teams and stakeholders.",
+    "Experienced in machine learning, AI research, and full-stack development, with a strong focus on deploying production-ready solutions.",
   items: [
     {
-      position: "Collaborating with an Agile Team",
-      duration: "2025",
-      description: "Chingu Voyage",
+      position: "Machine Learning Engineer",
+      duration: "May 2023 - Now",
+      description: "Zirak, Torino, Italy - Worked on CNN models for satellite image processing and computer vision applications.",
     },
     {
-      position: "Full-stack Web Application Development",
-      duration: "2024",
-      description: "Bootcamp Project",
+      position: "Machine Learning Research Intern",
+      duration: "May 2022 - Aug 2022",
+      description: "Anglia Ruskin University - Developed ML models for disease detection, improving diagnostic accuracy by 13%.",
     },
     {
-      position: "Frontend Development in Open-Source Team",
-      duration: "2024",
-      description: "Grammerhub",
+      position: "AI Developer & Full-stack Engineer",
+      duration: "2023 - Present",
+      description: "Zaka Coach (Fitness App) - Built an AI-powered fitness app with personalized meal and workout plans using GPT and RLHF.",
     },
     {
-      position: "Small Business Website Development",
-      duration: "2023",
-      description: "Freelance",
+      position: "Software Developer",
+      duration: "Oct 2021 - Jan 2022",
+      description: "GoFinance - Developed a real-time financial analytics platform using C# and MySQL.",
     },
+    {
+      position: "Machine Learning Engineer",
+      duration: "1 Year",
+      description: "Zirak, Torino, Italy - Worked on CNN models for satellite image processing and computer vision applications.",
+    }
   ],
 };
 
@@ -143,17 +193,13 @@ const education = {
       duration: "2016 - 2018",
     },
     {
-      institution: "Miami Dade College",
-      degree: "PHI THETA KAPPA Honor Society",
+      institution: "Istuto Luca Pacioli, CR, IR",
+      degree: "Custrozione Ambiete Terrotorio",
       duration: "2015",
-    },
-    {
-      institution: "UCI (Cuba)",
-      degree: "Engineering in Computer Science",
-      duration: "2010 - 2013",
     },
   ],
 };
+
 
 const About = () => {
   return (
