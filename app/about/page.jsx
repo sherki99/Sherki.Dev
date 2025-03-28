@@ -41,7 +41,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "solarluiso@gmail.com",
+      fieldValue: "cherkimeziane99@outlook.com",
     },
     {
       fieldName: "Location",

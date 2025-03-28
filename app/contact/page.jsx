@@ -20,13 +20,13 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "solarluiso@gmail.com",
-    action: () => (window.location.href = "mailto:solarluiso@gmail.com"),
+    description: "cherkimeziane99@outlook.com",
+    action: () => (window.location.href = "mailto:cherkimeziane99@outlook.com"),
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Location",
-    description: "Washington, DC",
+    description: "Bergamo, IT/ London, UK",
     action: () =>
       window.open("https://www.google.com/maps?q=Washington+DC", "_blank"),
   },

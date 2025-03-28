@@ -37,7 +37,7 @@ const Home = () => {
               <h1 className="h1">
                 Hello,
                 <br />
-                I'm <span className="text-accent">Luiso!</span>
+                I'm <span className="text-accent">Sherki!</span>
               </h1>
             </motion.div>
             {/* bio */}
