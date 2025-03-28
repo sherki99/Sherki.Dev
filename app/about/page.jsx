@@ -8,6 +8,17 @@ import {
   SiPostgresql,
   SiFirebase,
   SiDocker,
+  SiPython,           
+  SiTensorflow,       
+  SiPytorch,          
+  SiOpencv,           
+  SiScikitlearn,      
+  SiKeras,            
+  SiNumpy,            
+  SiPandas,           
+  SiAzure,            
+  SiAws,              
+  SiGooglecloud,      
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
