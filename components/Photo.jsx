@@ -13,7 +13,7 @@ const Photo = () => {
           opacity: 1,
           transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
         }}
-        className="relative z-10 w-[250px] h-[250px] xl:w-[380px] xl:h-[380px] rounded-full overflow-hidden"
+        className="relative z-10 w-[250px] h-[250px] xl:w-[380px] xl:h-[380px]"
       >
         <Image
           src="/assets/photo.png"
@@ -21,7 +21,7 @@ const Photo = () => {
           priority
           quality={100}
           sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 400px"
-          className="object-cover"
+          className="object-contain"
           fill
         />
       </motion.div>
@@ -33,7 +33,7 @@ const Photo = () => {
         viewBox="0 0 506 506"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <motion.circle
+        <motion.circke
           cx="253"
           cy="253"
           r="250"

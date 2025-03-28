@@ -8,34 +8,6 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    num: "07",
-    category: "ai",
-    title: "Zaka Coach (Fitness App)",
-    description: "AI-driven fitness app for personalized workouts & meal plans.",
-    stack: [{ name: "React Native" }, { name: "FastAPI" }, { name: "AWS Lambda" }],
-    //image: "/assets/projects/thumb7.png",  // Add image later
-   // live: "https://zaka-coach.example.com",  // Add link later
-   // github: 
-  },
-  {
-    num: "08",
-    category: "ai",
-    title: "GoFinance",
-    description: "Real-time financial analytics platform for investment decision-making.",
-    stack: [{ name: "C#" }, { name: "MySQL" }],
-   // image: "/assets/projects/thumb8.png",  // Add image later
-   // live: "https://gofinance.example.com",  // Add link later
-  },
-  {
-    num: "09",
-    category: "ai",
-    title: "BioBERT Health Analytics Platform",
-    description: "Fine-tuned BioBERT model for improved health metrics predictions.",
-    stack: [{ name: "PyTorch" }, { name: "BioBERT" }],
-   // image: "/assets/projects/thumb9.png",  // Add image later
-   // live: "https://biobert-health.example.com",  // Add link later
-  },
-  {
     num: "01",
     category: "fullstack",
     title: "Product Store App",
@@ -43,7 +15,7 @@ const projects = [
     stack: [{ name: "React.js" }, { name: "Node.js" }, { name: "MongoDB" }],
     image: "/assets/projects/thumb1.png",
     live: "https://product-store-app-tkmt.onrender.com/",
-   // github: "https://github.com/solarluiso/product-store-app",
+    github: "https://github.com/solarluiso/product-store-app",
   },
   {
     num: "02",
@@ -54,7 +26,7 @@ const projects = [
     stack: [{ name: "Next.js" }, { name: "TailwindCSS" }, { name: "Firebase" }],
     image: "/assets/projects/thumb2.png",
     live: "https://mood-mapper.netlify.app/",
-    //github: "https://github.com/solarluiso/mood-tracker",
+    github: "https://github.com/solarluiso/mood-tracker",
   },
   {
     num: "03",
@@ -65,7 +37,7 @@ const projects = [
     stack: [{ name: "React.js" }, { name: "TailwindCSS" }, { name: "Vite" }],
     image: "/assets/projects/thumb3.png",
     live: "https://ecommerce-ten-alpha-35.vercel.app/",
- //   github: "https://github.com/solarluiso/ecommerce",
+    github: "https://github.com/solarluiso/ecommerce",
   },
   {
     num: "04",
@@ -79,7 +51,7 @@ const projects = [
     ],
     image: "/assets/projects/thumb4.png",
     live: "https://focus-inky.vercel.app/",
-  //  github: "https://github.com/solarluiso/focus",
+    github: "https://github.com/solarluiso/focus",
   },
   {
     num: "05",
@@ -93,7 +65,7 @@ const projects = [
     ],
     image: "/assets/projects/thumb5.png",
     live: "https://fitphysique-pi.vercel.app/",
-  //  github: "https://github.com/solarluiso/fitphysique",
+    github: "https://github.com/solarluiso/fitphysique",
   },
   {
     num: "06",
@@ -103,7 +75,7 @@ const projects = [
     stack: [{ name: "React.js" }, { name: "TailwindCSS" }, { name: "Vite" }],
     image: "/assets/projects/thumb6.png",
     live: "https://modern-bank-app-ebon-omega.vercel.app/",
-  //  github: "https://github.com/solarluiso/modern-bank-app",
+    github: "https://github.com/solarluiso/modern-bank-app",
   },
 ];
 
