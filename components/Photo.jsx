@@ -17,7 +17,7 @@ const Photo = () => {
       >
         <Image
           src="/assets/photo.png"
-          alt="Sherki's profile photo"
+          alt="Luiso's profile photo"
           priority
           quality={100}
           sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 400px"
@@ -33,7 +33,7 @@ const Photo = () => {
         viewBox="0 0 506 506"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <motion.circke
+        <motion.circle
           cx="253"
           cy="253"
           r="250"
